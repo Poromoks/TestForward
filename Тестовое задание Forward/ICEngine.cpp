@@ -2,7 +2,7 @@
 #include "ICEngine.h"
 
 ICEngine::ICEngine() {
-	I			= 10;
+	I			= 0.1;
 	Toverheat	= 110;
 	Hm			= 0.01;
 	Hv			= 0.0001;
