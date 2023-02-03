@@ -29,10 +29,7 @@ double ICEngine::CalcCurrentV(int i, double A) {
 }
 
 double ICEngine::CalcCurrentM(int i, double A) {
-	if (i == 5)
-		return 0;
-	else
-		return ((M[i + 1] - M[i]) / V[i + 1]) * CalcCurrentV(i, A) + M[i];
+	return ((M[i + 1] - M[i]) / V[i + 1]) * CalcCurrentV(i, A) + M[i];
 }
 
 double ICEngine::HeatingRate(int i, double A) {
