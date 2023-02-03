@@ -13,7 +13,7 @@ ICEngine::ICEngine() {
 }
 
 void ICEngine::SetTenv() {
-	std::cout << "Введите температуру окружающей среды: ";
+	std::cout << "Enter environment temperature: ";
 	std::cin >> Tenv;
 }
 
@@ -65,5 +65,5 @@ void ICEngine::StartEngine() {
 		time++;
 	}
 
-	std::cout << "Время до перегрева двигателя внутреннего сгорания: " << time << std::endl;
+	std::cout << "Time to overheat the internal combustion engine: " << time << std::endl;
 }

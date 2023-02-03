@@ -3,8 +3,6 @@
 
 int main()
 {
-	setlocale(0, "");
-
 	std::vector <Engine*> engines;
 	engines.push_back(new ICEngine);
 
